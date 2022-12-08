@@ -4,7 +4,6 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
-import Divider from '@mui/material/Divider';
 
 function Copyright() {
   return (
@@ -12,8 +11,7 @@ function Copyright() {
       {'Copyright © '}
       <Link color="inherit" href="https://mui.com/">
         Post 232
-      </Link>{' '}
-      {', '}
+      </Link>{', '}
       {new Date().getFullYear()}
       {'.'}
     </Typography>

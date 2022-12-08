@@ -3,7 +3,6 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Header from '../Header';
 import MainFeaturedPost from '../MainFeatured';
@@ -11,14 +10,14 @@ import FeaturedPost from '../Featured';
 import Main from '../Main';
 import Sidebar from '../Sidebar';
 import Footer from '../Footer';
-import { requirePropFactory } from '@mui/material';
 import flag from '../../images/hero/flag.jpg'
+import gospelgroup from '../../images/events/gospelgroup.jpg'
 import LocalPhoneRoundedIcon from '@mui/icons-material/LocalPhoneRounded';
 import EmailIcon from '@mui/icons-material/Email';
 
 const sections = [
   { title: 'Contact Us', url: '#' },
-  { title: 'Show Your Support', url: '#' },
+  { title: 'Show Your Support', url: '/support' },
   { title: 'Membership', url: '#' },
 ];
 
@@ -40,16 +39,14 @@ const featuredPosts = [
     imageLabel: 'Image Text',
   },
   {
-    title: 'Upcoming event #2',
-    date: 'Nov 11',
+    title: 'Annual Gospel Fest',
+    date: 'July 2',
     description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    image: 'https://source.unsplash.com/random',
+      'This years Annual Gospel Fest will be held on July 2nd, 2023. Money raised for this event will be donated towards veterans in need, financial aid, and disabilty ramps for the public. We would love for you to come enjoy the Gospel Festival and show your support!',
+    image: `${gospelgroup}`,
     imageLabel: 'Image Text',
   },
 ];
-
-// const posts = [post1, post2, post3];
 
 const sidebar = {
   title: 'POST EVERLASTING',
@@ -94,8 +91,8 @@ function Blog() {
         </main>
       </Container>
       <Footer
-        title="Post 232"
-        description="Something here to give the footer a purpose!"
+        title="POST 232"
+        description="Veterans Strengthening America"
       />
     </ThemeProvider>
   );
