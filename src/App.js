@@ -1,12 +1,20 @@
 import './App.css';
-import Blog from '../src/components/Home'
-import Support from '../src/components/Support'
+import Home from '../src/components/Home';
+import Support from '../src/components/Support';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Membership from '../src/components/Membership';
+
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
-      {/* <Blog></Blog> */}
-      <Support></Support>
+      <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path="/support" element={<Support/>}/>
+      <Route path='/membership' element={<Membership/>}/>
+      </Routes>
     </div>
+    </BrowserRouter>
   );
 }
 

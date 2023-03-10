@@ -2,12 +2,23 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Link from '@mui/material/Link';
+import { Link } from 'react-router-dom';
 import icon from '../../images/icons/legionicon.gif'
 
 function Header(props) {
-  const { sections } = props;
 
+
+  const handleCLickScroll = (e) => {
+    
+    const contacts = document.getElementById('contact');
+    const contactHeader = document.getElementById('Contact Us');
+    if(e.target === contactHeader && contacts) {contacts.scrollIntoView({behavior : 'smooth'})}
+    else {return}
+  }
+
+
+  const { sections } = props; 
+  
   return (
     <React.Fragment>
       <Toolbar sx={{ borderBottom: 1, borderColor: 'divider' }}>
@@ -29,13 +40,12 @@ function Header(props) {
         sx={{ justifyContent: 'space-between', overflowX: 'auto' }}
       >
         {sections.map((section) => (
+        
           <Link
-            color="inherit"
-            noWrap
+            id={section.title}
+            to={section.url}
             key={section.title}
-            variant="body2"
-            href={section.url}
-            sx={{ p: 1, flexShrink: 0 }}
+            onClick = {handleCLickScroll}
           >
             {section.title}
           </Link>

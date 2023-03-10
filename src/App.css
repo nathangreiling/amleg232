@@ -40,7 +40,7 @@
 
 
 .tab {
-  text-indent: 50px;
+  text-indent: 30px;
   text-align: left;
 }
 
@@ -63,4 +63,22 @@
   font-size: calc(5px + .6vmin);
   margin-right: 5px;
   margin-left: 5px;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+.btn {
+  background-color: rgb(43, 184, 232);
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+.btn:hover, .btn:active {
+  background-color: rgb(10, 144, 189);
 }

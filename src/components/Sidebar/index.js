@@ -2,29 +2,14 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
-import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 
 function Sidebar(props) {
-  const { archives, social, title } = props;
-
+  const { social } = props;
   return (
     <Grid item xs={12} md={4}>
-      <Paper elevation={0} sx={{ p: 2, bgcolor: '#F5F5F5', border: 1, borderColor: 'divider' }}>
-        <Typography variant="h6" gutterBottom sx={{ fontWeight:''}}>
-          {title}
-        </Typography>
-        {archives.map((archive) => (
-        <Typography display="block" variant="body1" href={archive.url} key={archive.title} sx={{ m: 2,}}>
-          {archive.title}
-          <Typography sx={{ color: 'grey.600'}}>
-            {archive.short}
-          </Typography>
-        </Typography>
-      ))}
-      </Paper>
-      <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
+      <Typography variant="h6" id="contact" gutterBottom sx={{ mt: 3 }}>
         Reach Us Here
       </Typography>
       {social.map((network) => (
@@ -48,20 +33,12 @@ function Sidebar(props) {
 }
 
 Sidebar.propTypes = {
-  archives: PropTypes.arrayOf(
-    PropTypes.shape({
-      title: PropTypes.string.isRequired,
-      url: PropTypes.string.isRequired,
-    }),
-  ).isRequired,
-  description: PropTypes.string.isRequired,
   social: PropTypes.arrayOf(
     PropTypes.shape({
       icon: PropTypes.elementType.isRequired,
       name: PropTypes.string.isRequired,
     }),
   ).isRequired,
-  title: PropTypes.string.isRequired,
 };
 
 export default Sidebar;

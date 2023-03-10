@@ -11,14 +11,15 @@ import Main from '../Main';
 import Sidebar from '../Sidebar';
 import Footer from '../Footer';
 import flag from '../../images/hero/flag.jpg'
+import meet from '../../images/events/meeting.png'
 import gospelgroup from '../../images/events/gospelgroup.jpg'
 import LocalPhoneRoundedIcon from '@mui/icons-material/LocalPhoneRounded';
 import EmailIcon from '@mui/icons-material/Email';
 
 const sections = [
-  { title: 'Contact Us', url: '#' },
+  { title: 'Contact Us', url: '/' },
   { title: 'Show Your Support', url: '/support' },
-  { title: 'Membership', url: '#' },
+  { title: 'Membership', url: '/membership' },
 ];
 
 const mainFeaturedPost = {
@@ -31,11 +32,11 @@ const mainFeaturedPost = {
 
 const featuredPosts = [
   {
-    title: 'Upcoming event #1',
-    date: 'Nov 12',
+    title: 'Monthly Meeting',
+    date: 'March 21st',
     description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    image: `${flag}`,
+      'On the 3rd Tuesday of every month, the Longview American Legion, Post 232 gathers to discuss what can be done for the good of the legion. It would be a pleasure to have you there! Come sit in, give your input, or simply socialize. The meeting will commence at 7pm.',
+    image: `${meet}`,
     imageLabel: 'Image Text',
   },
   {
@@ -46,17 +47,13 @@ const featuredPosts = [
     image: `${gospelgroup}`,
     imageLabel: 'Image Text',
   },
+  
 ];
 
 const sidebar = {
   title: 'POST EVERLASTING',
   description:
     'desc here',
-  archives: [
-    { title: ' John Doe, March 2020', url: '#', short: 'A brief passage describing said persons significance, and etc.' },
-    { title: 'Joe Smith, February 2020', url: '#', short:'A brief passage describing said persons significance, and etc.' },
-    { title: 'Jane Doe, January 2020', url: '#', short:'A brief passage describing said persons significance, and etc.' },
-  ],
   social: [
     { name: '(903)***-****', url:'tel:5554280940', target:'', icon: LocalPhoneRoundedIcon},
     { name: 'youremail@example.com', url:'mailto: abc@example.com', icon: EmailIcon},
@@ -66,7 +63,7 @@ const sidebar = {
 
 const theme = createTheme();
 
-function Blog() {
+function Home() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -74,7 +71,7 @@ function Blog() {
         <Header sections={sections} />
         <main>
           <MainFeaturedPost post={mainFeaturedPost} />
-          <Grid container spacing={4}>
+          <Grid container spacing={8}>
             {featuredPosts.map((post) => (
               <FeaturedPost key={post.title} post={post} />
             ))}
@@ -98,4 +95,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default Home;
