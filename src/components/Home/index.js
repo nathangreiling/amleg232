@@ -55,8 +55,9 @@ const sidebar = {
   description:
     'desc here',
   social: [
-    { name: '(903)***-****', url:'tel:5554280940', target:'', icon: LocalPhoneRoundedIcon},
-    { name: 'youremail@example.com', url:'mailto: abc@example.com', icon: EmailIcon},
+    { name: '(903)452-2741', url:'tel:9034522741', target:'', icon: LocalPhoneRoundedIcon},
+    { name: '(903)452-7068', url:'tel:9034527068', target:'', icon: LocalPhoneRoundedIcon},
+    { name: 'darqusta1@msn.com', url:'mailto: darqusta1@msn.com', icon: EmailIcon},
     { name: 'Facebook', url:'https://www.facebook.com/pages/category/non-profit/American-Legion-Post-232-Longview-TX-1505926166176404/', target:'_blank', icon: FacebookIcon },
   ],
 };

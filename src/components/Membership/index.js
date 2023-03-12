@@ -50,7 +50,7 @@ function Membership () {
             <Typography className='' sx={{pt:2,  }} >
             To join the American Legion, you must have served at least one day of active military duty in the United States Armed Forces since December 7, 1941.
             If you meet the eligibility criteria, you can fill out an application for membership at our local post here in Longview, online, or by mail. 
-            You will need to provide proof of your eligibility, such as a copy of your DD-214.
+            You will need to provide proof of eligibility, such as a copy of your DD-214.
             </Typography>
             <Typography className='' sx={{  pt:2}} >
             If you prefer to join in person, you can visit us at Post 232 and fill out an application here, where we would be happy to assist you with the process. 

@@ -51,7 +51,7 @@ function Support() {
           }}>
            
           </Grid>
-          <Grid item xs={12} sm={12} md={6} sx={{ textAlign: "left", }} margin='auto'>
+          <Grid item xs={12} sm={12} md={6} sx={{ textAlign: "left", pb:5 }} margin='auto'>
             <Typography
               
               sx={{
@@ -74,18 +74,16 @@ of what your donation will support: </Typography>
 <li>Disaster relief efforts for veterans and their families</li>
 <li>Support for military families and children of fallen service members</li>
 </ul>
+
           </Grid>
-          <Typography component='div' sx={{pt:1, pb:5, textAlign:'left'}}>
-To make a donation, please click the button below. You will be redirected to a secure payment portal where you can make a 
+          <Grid item xs={12}><a className='btn'href='https://mylegion.org/PersonifyEbusiness/Donate' target='__blank'>DONATE</a></Grid>
+        </Grid>
+        <Typography component='div' sx={{pt:5, pb:3, textAlign:'left', fontStyle:'italic'}}>
+To make a donation, please click the button above. You will be redirected to a secure payment portal where you can make a 
 donation using a credit or debit card. If you prefer to mail a check or money order, please send it to the following address: 
 <Typography sx={{textDecoration:'underline'}} display="inline"> American Legion National Headquarters, PO Box 1055, Indianapolis, IN 46206.</Typography>
           </Typography>
-          <Grid item xs={12}><a className='btn'href='' target='__blank'>DONATE</a></Grid>
-          <Typography sx={{pt:5, pb:2}}>Thank you for your support! Together, we can continue to serve and honor our nation's veterans and their families.</Typography>
-            {/* <Grid item xs={12}><a className='btn'href='' target='__blank'>DONATE</a></Grid> */}
-            
-        </Grid>
-
+        <Typography sx={{pt:3, pb:2}}>Thank you for your support! Together, we can continue to serve and honor our nation's veterans and their families.</Typography>
         </main>
       </Container>
       <Footer
