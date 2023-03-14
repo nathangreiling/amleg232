@@ -6,7 +6,7 @@ import Membership from '../src/components/Membership';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={window.location.pathname}>
     <div className="App">
       <Routes>
       <Route path='/' element={<Home/>}/>
