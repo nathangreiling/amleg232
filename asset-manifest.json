@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.646f36fb.chunk.css",
-    "main.js": "/static/js/main.dfceca64.chunk.js",
-    "main.js.map": "/static/js/main.dfceca64.chunk.js.map",
+    "main.js": "/static/js/main.2685b15c.chunk.js",
+    "main.js.map": "/static/js/main.2685b15c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9c88d01d.js",
     "runtime-main.js.map": "/static/js/runtime-main.9c88d01d.js.map",
     "static/js/2.6ab66163.chunk.js": "/static/js/2.6ab66163.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/2.6ab66163.chunk.js.LICENSE.txt": "/static/js/2.6ab66163.chunk.js.LICENSE.txt",
     "static/media/donohand.28920bad.png": "/static/media/donohand.28920bad.png",
     "static/media/flag.b0d6f23a.jpg": "/static/media/flag.b0d6f23a.jpg",
-    "static/media/gospelgroup.e9157fa5.jpg": "/static/media/gospelgroup.e9157fa5.jpg",
+    "static/media/gathering.65da8c75.jpg": "/static/media/gathering.65da8c75.jpg",
     "static/media/legionicon.f5bce230.gif": "/static/media/legionicon.f5bce230.gif",
     "static/media/meeting.6e27c8cf.png": "/static/media/meeting.6e27c8cf.png"
   },
@@ -22,6 +22,6 @@
     "static/js/runtime-main.9c88d01d.js",
     "static/js/2.6ab66163.chunk.js",
     "static/css/main.646f36fb.chunk.css",
-    "static/js/main.dfceca64.chunk.js"
+    "static/js/main.2685b15c.chunk.js"
   ]
 }
