@@ -12,7 +12,7 @@ import Sidebar from '../Sidebar';
 import Footer from '../Footer';
 import flag from '../../images/hero/flag.jpg'
 import meet from '../../images/events/meeting.png'
-import gospelgroup from '../../images/events/gospelgroup.jpg'
+import gathering from '../../images/events/gathering.jpg'
 import LocalPhoneRoundedIcon from '@mui/icons-material/LocalPhoneRounded';
 import EmailIcon from '@mui/icons-material/Email';
 
@@ -33,18 +33,18 @@ const mainFeaturedPost = {
 const featuredPosts = [
   {
     title: 'Monthly Meeting',
-    date: 'June 20',
+    date: 'August 15',
     description:
       'On the 3rd Tuesday of every month, the Longview American Legion, Post 232 gathers to discuss what can be done for the good of the legion. It would be a pleasure to have you there! Come sit in, give your input, or simply socialize. The meeting will commence at 7pm.',
     image: `${meet}`,
     imageLabel: 'Image Text',
   },
   {
-    title: 'Annual Gospel Fest',
-    date: 'July 2',
+    title: 'Collaborate with us!',
+    date: '',
     description:
-      'This years Annual Gospel Fest will be held on July 2nd, 2023. Money raised for this event will be donated towards veterans in need, financial aid, and disabilty ramps for the public. We would love for you to come enjoy the Gospel Festival and show your support!',
-    image: `${gospelgroup}`,
+      'Host an event in collaboration with Post 232. Have an idea that you believe we can work with? We would love to be a part of it! Wether it be a fundraiser or a simple gathering, get in contact with us so we can come together and make an event to remember.',
+    image: `${gathering}`,
     imageLabel: 'Image Text',
   },
   
