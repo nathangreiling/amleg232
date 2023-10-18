@@ -33,7 +33,7 @@ const mainFeaturedPost = {
 const featuredPosts = [
   {
     title: 'Monthly Meeting',
-    date: 'August 15',
+    date: 'October 17',
     description:
       'On the 3rd Tuesday of every month, the Longview American Legion, Post 232 gathers to discuss what can be done for the good of the legion. It would be a pleasure to have you there! Come sit in, give your input, or simply socialize. The meeting will commence at 7pm.',
     image: `${meet}`,
