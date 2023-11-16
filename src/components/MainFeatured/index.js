@@ -37,18 +37,20 @@ function MainFeaturedPost(props) {
       />
       <Grid container>
         <Grid item md={7}>
-          <Box
+          <Box align='left'
             sx={{
               position: 'relative',
               p: { xs: 3, md: 6 },
               pr: { md: 0 },
             }}
           >
-            <Typography variant="h4" color="inherit" gutterBottom>
+            <Typography variant="h4" color="inherit" gutterBottom fontSize={'calc(15px + 1.5vw)'}>
               {post.title}
             </Typography>
-            <Typography variant="h8" color="inherit" paragraph>
+            <Typography variant="subtitle 1" color="inherit">
+              <pre>
               {post.description}
+              </pre>
             </Typography>
           </Box>
         </Grid>

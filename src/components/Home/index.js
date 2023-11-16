@@ -12,7 +12,8 @@ import Sidebar from '../Sidebar';
 import Footer from '../Footer';
 import flag from '../../images/hero/flag.jpg'
 import meet from '../../images/events/meeting.png'
-import gathering from '../../images/events/gathering.jpg'
+import blooddrive from '../../images/events/bloodrive.jpg'
+import christmasparty from '../../images/events/christmasparty.jpg'
 import LocalPhoneRoundedIcon from '@mui/icons-material/LocalPhoneRounded';
 import EmailIcon from '@mui/icons-material/Email';
 
@@ -25,26 +26,40 @@ const sections = [
 const mainFeaturedPost = {
   title: 'Longview American Legion, Post 232',
   description:
-    "2201 HORSESHOE LN, LONGVIEW 75605-5650 TX USA",
+    "FRIENDSHIP ROOM -\nADMINISTRATION BUILDING \nBUCKNER WESTMINISTER PLACE \n2201 HORSESHOE LN,\nLONGVIEW TX 75605",
   image: `${flag}`,
   imageText: 'main image description',
 };
 
 const featuredPosts = [
   {
-    title: 'Monthly Meeting',
-    date: 'October 17',
+    title: 'Giving Tuesday Drive',
+    date: 'November 28th,',
+    time: '5:00pm-8:00pm',
+    location:' Friendship Room -\n Administration Building \n Buckner Westminister Place \n 2201 Horeshoe Ln \n Longview, TX 75605',
     description:
-      'On the 3rd Tuesday of every month, the Longview American Legion, Post 232 gathers to discuss what can be done for the good of the legion. It would be a pleasure to have you there! Come sit in, give your input, or simply socialize. The meeting will commence at 7pm.',
-    image: `${meet}`,
+      'American Legion Post #232 will be collaborating with Carter BloodCare to host a Blood Drive for those in need. Blood donors will recieve a fleece blanket.',
+    image: `${blooddrive}`,
     imageLabel: 'Image Text',
   },
   {
-    title: 'Collaborate with us!',
-    date: '',
+    title: 'Christmas Party',
+    date: 'December 12th,',
+    time:'5:00pm-7:00pm',
+    location:' Friendship Room -\n Administration Building \n Buckner Westminister Place \n 2201 Horeshoe Ln \n Longview, TX 75605',
     description:
-      'Host an event in collaboration with Post 232. Have an idea that you believe we can work with? We would love to be a part of it! Wether it be a fundraiser or a simple gathering, get in contact with us so we can come together and make an event to remember.',
-    image: `${gathering}`,
+      'Post #232 would like to invite you to come to our 2023 Christmas Party. Food and Activities will be provided. Come join the fun and spread the Christmas Cheer!',
+    image: `${christmasparty}`,
+    imageLabel: 'Image Text',
+  },
+  {
+    title: 'Monthly Meeting',
+    date: 'November 21',
+    time:'',
+    location:'',
+    description:
+      'On the 3rd Tuesday of every month, the Longview American Legion, Post 232 gathers to discuss what can be done for the good of the legion. It would be a pleasure to have you there! Come sit in, give your input, or simply socialize. The meeting will commence at 7pm.',
+    image: `${meet}`,
     imageLabel: 'Image Text',
   },
   

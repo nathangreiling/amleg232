@@ -11,12 +11,12 @@ function FeaturedPost(props) {
   const { post } = props;
 
   return (
-    <Grid item xs={10} md={6} margin='auto' minWidth={352.5}>
+    <Grid item xs={10} md={6} margin='auto' minWidth={352.5} align='left'>
       <CardActionArea component="a" href="#">
-        <Card sx={{ display: 'flex', boxShadow:'12', backgroundColor: 'white'}}>
+        <Card sx={{ display: 'flex', boxShadow:'12', backgroundColor: 'white', }}>
         <CardMedia
             component="img"
-            sx={{ width: 175, height:'auto', display: { xs: 'none', sm: 'none', md:'none', lg:'block'},  }}
+            sx={{ width: 200, display: { xs: 'none', sm: 'none', md:'none', lg:'block'},  }}
             image={post.image}
             alt={post.imageLabel}
           />
@@ -25,9 +25,14 @@ function FeaturedPost(props) {
               {post.title}
             </Typography>
             <Typography variant="subtitle1" color="text.secondary">
-              {post.date}
+              {post.date} {post.time}
             </Typography>
-            <Typography variant="subtitle1" paragraph>
+            <Typography variant="subtitle1" color="text.secondary" align="left">
+              <pre>
+              {post.location}
+              </pre>
+            </Typography>
+            <Typography variant="subtitle1" paragraph align='left'>
               {post.description}
             </Typography>
           </CardContent>
@@ -40,6 +45,7 @@ function FeaturedPost(props) {
 FeaturedPost.propTypes = {
   post: PropTypes.shape({
     date: PropTypes.string.isRequired,
+    time: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
     imageLabel: PropTypes.string.isRequired,
