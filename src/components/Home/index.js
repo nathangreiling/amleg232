@@ -12,7 +12,6 @@ import Sidebar from '../Sidebar';
 import Footer from '../Footer';
 import flag from '../../images/hero/flag.jpg'
 import meet from '../../images/events/meeting.png'
-import blooddrive from '../../images/events/bloodrive.jpg'
 import christmasparty from '../../images/events/christmasparty.jpg'
 import LocalPhoneRoundedIcon from '@mui/icons-material/LocalPhoneRounded';
 import EmailIcon from '@mui/icons-material/Email';
@@ -32,16 +31,7 @@ const mainFeaturedPost = {
 };
 
 const featuredPosts = [
-  {
-    title: 'Giving Tuesday Drive',
-    date: 'November 28th,',
-    time: '5:00pm-8:00pm',
-    location:' Friendship Room -\n Administration Building \n Buckner Westminister Place \n 2201 Horeshoe Ln \n Longview, TX 75605',
-    description:
-      'American Legion Post #232 will be collaborating with Carter BloodCare to host a Blood Drive for those in need. Blood donors will recieve a fleece blanket.',
-    image: `${blooddrive}`,
-    imageLabel: 'Image Text',
-  },
+  
   {
     title: 'Christmas Party',
     date: 'December 12th,',
@@ -54,7 +44,7 @@ const featuredPosts = [
   },
   {
     title: 'Monthly Meeting',
-    date: 'November 21',
+    date: 'December 19th',
     time:'',
     location:'',
     description:
