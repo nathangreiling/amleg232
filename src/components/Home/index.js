@@ -12,7 +12,7 @@ import Sidebar from '../Sidebar';
 import Footer from '../Footer';
 import flag from '../../images/hero/flag.jpg'
 import meet from '../../images/events/meeting.png'
-import christmasparty from '../../images/events/christmasparty.jpg'
+import idea from '../../images/events/idea.png'
 import LocalPhoneRoundedIcon from '@mui/icons-material/LocalPhoneRounded';
 import EmailIcon from '@mui/icons-material/Email';
 
@@ -33,18 +33,18 @@ const mainFeaturedPost = {
 const featuredPosts = [
   
   {
-    title: 'Christmas Party',
-    date: 'December 12th,',
-    time:'5:00pm-7:00pm',
-    location:' Friendship Room -\n Administration Building \n Buckner Westminister Place \n 2201 Horeshoe Ln \n Longview, TX 75605',
+    title: 'Collaborate with us!',
+    date: '',
+    time:'',
+    location:'',
     description:
-      'Post #232 would like to invite you to come to our 2023 Christmas Party. Food and Activities will be provided. Come join the fun and spread the Christmas Cheer!',
-    image: `${christmasparty}`,
+      'Have an idea, or looking to host an event? We would love to collaborate with you! Contact us to let us know the details and to go over information.',
+    image: `${idea}`,
     imageLabel: 'Image Text',
   },
   {
     title: 'Monthly Meeting',
-    date: 'December 19th',
+    date: 'January 16th',
     time:'',
     location:'',
     description:
