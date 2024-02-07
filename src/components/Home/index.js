@@ -44,7 +44,7 @@ const featuredPosts = [
   },
   {
     title: 'Monthly Meeting',
-    date: 'January 16th',
+    date: 'February 20th',
     time:'',
     location:'',
     description:
