@@ -44,11 +44,11 @@ const featuredPosts = [
   },
   {
     title: 'Monthly Meeting',
-    date: 'February 20th',
-    time:'',
-    location:'',
+    date: 'Tuesday, February 20th',
+    time:'7:00 PM',
+    location:'BUCKNER WESTMINSTER CENTER \nFRIENDSHIP ROOM',
     description:
-      'On the 3rd Tuesday of every month, the Longview American Legion, Post 232 gathers to discuss what can be done for the good of the legion. It would be a pleasure to have you there! Come sit in, give your input, or simply socialize. The meeting will commence at 7pm.',
+      'This February General Meeting for Post 232 will cover several interesting programs and activities coming up this year. The training program will be on Serving as an Officer in the Local Post. We are looking for people to step up, and serve where there is a need. Being a part of the Post allows for involvement in day-to-day plans, actions, and decisions. ',
     image: `${meet}`,
     imageLabel: 'Image Text',
   },

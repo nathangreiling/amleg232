@@ -6,21 +6,23 @@ import Card from '@mui/material/Card';
 import CardActionArea from '@mui/material/CardActionArea';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
+import { autocompleteClasses } from '@mui/material';
 
 function FeaturedPost(props) {
   const { post } = props;
 
   return (
-    <Grid item xs={10} md={6} margin='auto' minWidth={352.5} align='left'>
+    <Grid item xs={10} md={6} margin='top' minWidth={352.5} align='left'>
       <CardActionArea component="a" href="#">
         <Card sx={{ display: 'flex', boxShadow:'12', backgroundColor: 'white', }}>
         <CardMedia
             component="img"
-            sx={{ width: 200, display: { xs: 'none', sm: 'none', md:'none', lg:'block'},  }}
+            sx={{ maxWidth: 200, display: { xs: 'none', sm: 'none', md:'none', lg:'block'},  }}
             image={post.image}
             alt={post.imageLabel}
           />
           <CardContent sx={{ flex: 1 }}>
+            
             <Typography component="h2" variant="h5">
               {post.title}
             </Typography>
