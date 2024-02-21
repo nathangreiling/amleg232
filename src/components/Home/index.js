@@ -13,6 +13,7 @@ import Footer from '../Footer';
 import flag from '../../images/hero/flag.jpg'
 import meet from '../../images/events/meeting.png'
 import idea from '../../images/events/idea.png'
+import boysstate from '../../images/events/Boysstate.jpg'
 import LocalPhoneRoundedIcon from '@mui/icons-material/LocalPhoneRounded';
 import EmailIcon from '@mui/icons-material/Email';
 
@@ -33,13 +34,16 @@ const mainFeaturedPost = {
 const featuredPosts = [
   
   {
-    title: 'Collaborate with us!',
+    title: 'Texas Boys State',
     date: '',
     time:'',
-    location:'',
+    location:'CONTRIBUTION DEADLINE: \nAPRIL 15',
     description:
-      'Have an idea, or looking to host an event? We would love to collaborate with you! Contact us to let us know the details and to go over information.',
-    image: `${idea}`,
+      'Texas Boys State is a specific instance of the broader American Legion Boys State program. This program shares the objectives of educating high school students about government processes, leadership, and civic responsibility through hands-on simulations and activities.',
+    descriptionContd: 'At American Legion Longview, Post 232, we believe this is an amazing opportunity for our younger generation, and aim to sponsor participants. Each participant is a contribution of $400.00, which includes tuition, and the cost of 6 mandatory Boys State T-shirts worn through out the program. If you would like to contribute to our mission and help sponsor participants, you are able to do so by donating to:',  
+    maddress:'American Legion Post 232, Department of Texas, P.O. Box 386, Longview, TX 75606.',
+    ps:"Any funds that remain after this year's Boys State sponsorship will be placed in our Post 232 Boys State Endowment for next year. However, any amount donated is very much appreciated.",
+    image: `${boysstate}`,
     imageLabel: 'Image Text',
   },
   {
