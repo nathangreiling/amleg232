@@ -12,7 +12,6 @@ import Sidebar from '../Sidebar';
 import Footer from '../Footer';
 import flag from '../../images/hero/flag.jpg'
 import meet from '../../images/events/meeting.png'
-import idea from '../../images/events/idea.png'
 import boysstate from '../../images/events/Boysstate.jpg'
 import LocalPhoneRoundedIcon from '@mui/icons-material/LocalPhoneRounded';
 import EmailIcon from '@mui/icons-material/Email';

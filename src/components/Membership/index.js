@@ -20,7 +20,7 @@ const sections = [
   const mainFeaturedPost = {
     title: 'Longview American Legion, Post 232',
     description:
-      "2201 HORSESHOE LN, LONGVIEW 75605-5650 TX USA",
+      "FRIENDSHIP ROOM -\nADMINISTRATION BUILDING \nBUCKNER WESTMINISTER PLACE \n2201 HORSESHOE LN,\nLONGVIEW TX 75605",
     image: `${flag}`,
     imageText: 'main image description',
   };  
