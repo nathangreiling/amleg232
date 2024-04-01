@@ -47,7 +47,7 @@ const featuredPosts = [
   },
   {
     title: 'Monthly Meeting',
-    date: 'Tuesday, February 20th',
+    date: 'Tuesday, April 15th',
     time:'7:00 PM',
     location:'BUCKNER WESTMINSTER CENTER \nFRIENDSHIP ROOM',
     description:
