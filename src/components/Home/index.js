@@ -12,7 +12,7 @@ import Sidebar from '../Sidebar';
 import Footer from '../Footer';
 import flag from '../../images/hero/flag.jpg'
 import meet from '../../images/events/meeting.png'
-import boysstate from '../../images/events/Boysstate.jpg'
+import idea from '../../images/events/idea.png'
 import LocalPhoneRoundedIcon from '@mui/icons-material/LocalPhoneRounded';
 import EmailIcon from '@mui/icons-material/Email';
 
@@ -33,25 +33,25 @@ const mainFeaturedPost = {
 const featuredPosts = [
   
   {
-    title: 'Texas Boys State',
+    title: 'Lets Collaborate!',
     date: '',
     time:'',
-    location:'CONTRIBUTION DEADLINE: \nAPRIL 15',
+    location:'',
     description:
-      'Texas Boys State is a specific instance of the broader American Legion Boys State program. This program shares the objectives of educating high school students about government processes, leadership, and civic responsibility through hands-on simulations and activities.',
-    descriptionContd: 'At American Legion Longview, Post 232, we believe this is an amazing opportunity for our younger generation, and aim to sponsor participants. Each participant is a contribution of $400.00, which includes tuition, and the cost of 6 mandatory Boys State T-shirts worn through out the program. If you would like to contribute to our mission and help sponsor participants, you are able to do so by donating to:',  
-    maddress:'American Legion Post 232, Department of Texas, P.O. Box 386, Longview, TX 75606.',
-    ps:"Any funds that remain after this year's Boys State sponsorship will be placed in our Post 232 Boys State Endowment for next year. However, any amount donated is very much appreciated.",
-    image: `${boysstate}`,
+      'Post 232 is always looking for a new event to raise awareness, and build a stronger community. Have an idea you would like to share with us? We would love to collaborate with you to make it happen! Reach out to us and lets see what we can do. ',
+    descriptionContd: '',  
+    maddress:'',
+    ps:"",
+    image: `${idea}`,
     imageLabel: 'Image Text',
   },
   {
     title: 'Monthly Meeting',
-    date: 'Tuesday, April 15th',
+    date: 'Tuesday, July 16th',
     time:'7:00 PM',
     location:'BUCKNER WESTMINSTER CENTER \nFRIENDSHIP ROOM',
     description:
-      'This February General Meeting for Post 232 will cover several interesting programs and activities coming up this year. The training program will be on Serving as an Officer in the Local Post. We are looking for people to step up, and serve where there is a need. Being a part of the Post allows for involvement in day-to-day plans, actions, and decisions. ',
+      'This General Meeting for Post 232 will cover interesting programs and activities this year. We are always looking forward to seeing new potential members and new faces. Please feel free to come by and see what we at Post 232 are about.',
     image: `${meet}`,
     imageLabel: 'Image Text',
   },
