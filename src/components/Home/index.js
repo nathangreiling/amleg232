@@ -14,7 +14,7 @@ import flag from '../../images/hero/flag.jpg'
 import meet from '../../images/events/meeting.png'
 import idea from '../../images/events/idea.png'
 import LocalPhoneRoundedIcon from '@mui/icons-material/LocalPhoneRounded';
-import EmailIcon from '@mui/icons-material/Email';
+//import EmailIcon from '@mui/icons-material/Email';//
 
 const sections = [
   { title: 'Contact Us', url: '/' },
@@ -47,7 +47,7 @@ const featuredPosts = [
   },
   {
     title: 'Monthly Meeting',
-    date: 'Tuesday, July 16th',
+    date: 'Tuesday, September 17th',
     time:'7:00 PM',
     location:'BUCKNER WESTMINSTER CENTER \nFRIENDSHIP ROOM',
     description:
@@ -65,7 +65,6 @@ const sidebar = {
   social: [
     { name: '(903)452-2741', url:'tel:9034522741', target:'', icon: LocalPhoneRoundedIcon},
     { name: '(903)452-7068', url:'tel:9034527068', target:'', icon: LocalPhoneRoundedIcon},
-    { name: 'darqusta1@msn.com', url:'mailto: darqusta1@msn.com', icon: EmailIcon},
     { name: 'Facebook', url:'https://www.facebook.com/pages/category/non-profit/American-Legion-Post-232-Longview-TX-1505926166176404/', target:'_blank', icon: FacebookIcon },
   ],
 };
